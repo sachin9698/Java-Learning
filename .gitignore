@@ -1,9 +1,11 @@
 # Compiled class file
 *.class
 
+/nbproject
 # Log file
 *.log
-
+*.xml
+*.mf
 # BlueJ files
 *.ctxt
 
