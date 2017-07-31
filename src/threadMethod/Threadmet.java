@@ -8,6 +8,10 @@ public class Threadmet {
         ClassB b=new ClassB();
         ClassC c=new ClassC();
         
+        //c.setPriority(Thread.MAX_PRIORITY);
+        //b.setPriority(a.getPriority()+1);
+        //a.setPriority(Thread.MIN_PRIORITY);
+        
         System.out.println("start thread A");
         a.start();
         System.out.println("start thread B");
